@@ -29,16 +29,12 @@
   font-size: 0.8rem;
 }
 
-#menu-checked{
-  display: none;
-}
-
 #checkbox-menu{
   position: absolute;
   opacity: 0;
 }
 
-label{
+.label-menu{
   cursor: pointer;
   position: relative;
   display: block;
@@ -46,7 +42,7 @@ label{
   width: 35px;
 }
 
-label span{
+.label-menu span{
   position: absolute;
   display: block;
   height: 5px;
@@ -56,30 +52,30 @@ label span{
   transition: 0.25s ease-in-out;
 }
 
-label span:nth-child(1){
+.label-menu span:nth-child(1){
   top: 0;
 }
 
-label span:nth-child(2){
+.label-menu span:nth-child(2){
   top: 12px;
 }
 
-label span:nth-child(3){
+.label-menu span:nth-child(3){
   top: 24px;
 }
 
-#checkbox-menu:checked + label span:nth-child(1){
+#checkbox-menu:checked + .label-menu span:nth-child(1){
   transform: rotate(-45deg);
   top: 16px;
   background:#f19696;
 }
 
-#checkbox-menu:checked + label span:nth-child(2){
+#checkbox-menu:checked + .label-menu span:nth-child(2){
   opacity: 0;
   background: #f19696;
 }
 
-#checkbox-menu:checked + label span:nth-child(3){
+#checkbox-menu:checked + .label-menu span:nth-child(3){
   transform: rotate(45deg);
   top: 16px;
   background: #f19696;
