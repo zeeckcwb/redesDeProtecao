@@ -137,10 +137,6 @@ pre {
   -ms-overflow-style: scrollbar;
 }
 
-figure {
-  margin: 0 0 1rem;
-}
-
 img {
   vertical-align: middle;
   border-style: none;
@@ -7408,11 +7404,6 @@ button.bg-dark:focus {
 
 .m-3 {
   margin: 1rem !important;
-}
-
-.mt-3,
-.my-3 {
-  margin-top: 1rem !important;
 }
 
 .mr-3,
