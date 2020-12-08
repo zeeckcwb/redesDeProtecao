@@ -5,6 +5,10 @@
   z-index: 9999;
 }
 
+#menu-checked{
+  display: none;
+}
+
 .box-hamburguer ul{
   background: linear-gradient(90deg, rgba(26,66,131,1) 0%, rgba(66,185,168,1) 100%);
   list-style-type: none;
